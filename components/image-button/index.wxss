@@ -1,0 +1,7 @@
+/* components/image-button/index.wxss */
+
+.button-user{
+   padding: 0 !important;
+    border:none !important;
+    
+}

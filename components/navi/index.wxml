@@ -1,0 +1,6 @@
+<!--components/classic/navi/index.wxml-->
+<view class="navi">
+<image bind:tap="onLeft" src="{{last?distleftimg:leftimg}}"></image>
+<text class="title">{{title}}</text>
+<image bind:tap="onRight" src="{{first?distrightimg:rightimg}}"></image>
+</view>

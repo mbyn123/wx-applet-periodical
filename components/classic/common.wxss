@@ -1,0 +1,25 @@
+ /* 定义公用的样式 */
+
+.classic-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.classic-container .classic-img{
+  width:750rpx;
+  height:500rpx;
+}
+
+.classic-container .classic-tag{
+  width:46rpx;
+  height:142rpx;
+  position: relative;
+  left:50rpx;
+  bottom:55rpx;
+}
+
+.classic-container .classic-title{
+  font-size:32rpx;
+  max-width: 550rpx;
+  margin: 0 auto;
+}

@@ -1,0 +1,10 @@
+<view catch:tap="onTap" class="preview-container">
+  <view class="header">
+    <v-tag text="{{typeText}}"  class="preview-tag"/>
+    <v-like count="{{classic.fav_nums}}" read-only="{{true}}" like="{{true}}" class="preview-like"/>
+  </view>
+  <view class="preview-content">
+  <image class="{{classic.type == 200?'music-img':'img'}}" src="{{classic.image}}"></image>
+  <text class="text">{{classic.content}}</text>
+  </view>
+</view>

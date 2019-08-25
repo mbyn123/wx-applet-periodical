@@ -1,0 +1,18 @@
+<!--pages/classic/classic.wxml-->
+<view class="classic-container">
+  <view class="header">
+    <v-epsoide index="{{classic.index}}" />
+    <view class="like-container">
+      <v-like bind:like="onlike" like="{{likestates}}" count="{{likecount}}" />
+      <l-button special="{{true}}" open-type="share">
+        <!-- 此处是插槽自定义内容 -->
+        <image class="share" slot="img" src="/images/icon/share.png" />
+        <l-icon name="share" />
+      </l-button>
+    </view>
+  </view>
+  <v-movie hidden="{{classic.type!=100}}" img="{{classic.image}}" content="{{classic.content}}" />
+  <v-music wx:if="{{classic.type == 200}}" img="{{classic.image}}" content="{{classic.content}}" src="{{classic.url}}" title="{{classic.title}}" />
+  <v-essay hidden="{{classic.type!=300}}" img="{{classic.image}}" content="{{classic.content}}" />
+  <v-navi wx:if="{{cid?false:true}}" class="navi" bind:left="onNext" bind:right="onLast" title="{{classic.title}}" last="{{last}}" first="{{first}}" />
+</view>

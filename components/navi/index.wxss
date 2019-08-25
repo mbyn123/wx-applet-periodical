@@ -1,0 +1,22 @@
+/* components/classic/navi/index.wxss */
+.navi{
+  
+  background: #f7f7f7;
+  width:600rpx;
+  height:80rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.navi image{
+  width:80rpx;
+  height:80rpx;
+}
+
+.navi .title{
+  font-size: 28rpx;
+}
+

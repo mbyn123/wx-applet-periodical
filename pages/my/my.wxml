@@ -1,0 +1,36 @@
+<!--pages/my/my.wxml-->
+
+<view class="my-container">
+  <view class="header">
+    <image class="header-img" src="../../images/my/my@bg.png"></image>
+    <!-- <open-data type="userAvatarUrl"/>直接获取用户信息 头像 -->
+    <v-button wx:if="{{!authorized}}" open-type="getUserInfo" class="avatar-position" bind:getUserInfo="onGetUserInfo">
+      <image slot="img" class="avatar" src="/images/my/my.png" />
+    </v-button>
+    <view class="avatar-container" wx:if="{{authorized}}">
+      <image class="avatar" class="avatar" src="{{userInfo.avatarUrl}}" />
+      <text>{{userInfo.nickName}}</text>
+    </view>
+    <view class="about-container">
+      <view class="about-us">
+        <image src="../../images/my/about.png"></image>
+        <text class="indicate">关于我们</text>
+      </view>
+      <view class="about-us">
+        <text class="count">{{bookCount}}</text>
+        <text class="indicate">喜欢的书</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="my-preview">
+    <view class="my-likeimg">
+      <image src="/images/my/like.png"></image>
+    </view>
+
+    <block wx:for="{{classic}}" wx:key="">
+      <v-preview bind:tapping="onclassicDetail" classic="{{item}}" />
+    </block>
+  </view>
+
+</view>

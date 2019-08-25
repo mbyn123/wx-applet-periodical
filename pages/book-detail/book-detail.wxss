@@ -1,0 +1,202 @@
+/* pages/book-detail/book-detail.wxss */
+
+.bookdetail-container {
+  display: flex;
+  flex-direction: column;
+  background: #f7f7f7;
+}
+
+.bookdetail-container .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 30rpx;
+  padding-bottom: 50rpx;
+}
+
+.share {
+  width: 40rpx;
+  height: 40rpx;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tags v-tag {
+  margin: 0 15rpx 10rpx 0;
+}
+
+.tags > v-tag:nth-child(1) > view {
+  background: #fffbdd;
+}
+
+.tags > v-tag:nth-child(2) > view {
+  background: #eefbff;
+}
+
+.tags .num {
+  color: #aaa;
+  font-size: 22rpx;
+  margin-left: 10rpx;
+}
+
+.bookdetail-container .head image {
+  width: 200rpx;
+  height: 300rpx;
+}
+
+.bookdetail-container .head .book-name {
+  font-size: 38rpx;
+  font-weight: bold;
+  margin: 20rpx 0 10rpx 0;
+}
+
+.bookdetail-container .head .book-author {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.bookdetail-container .comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30rpx;
+  background: #fff;
+}
+
+.bookdetail-container .comment .title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #2f2f2f;
+  margin-bottom: 20rpx;
+}
+
+.bookdetail-container .book-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30rpx;
+  background: #fff;
+  margin: 30rpx 0;
+}
+
+.bookdetail-container .book-content .title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #2f2f2f;
+  margin-bottom: 20rpx;
+}
+
+.bookdetail-container  .book-content .summary {
+  text-indent: 55rpx;
+  letter-spacing: 2rpx;
+  color: #5d5a5a;
+}
+
+.bookdetail-container  .book-information {
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx;
+  background: #fff;
+  margin-bottom:100rpx;
+}
+
+.bookdetail-container .book-information .title {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #2f2f2f;
+  margin: 0 auto 30rpx;
+}
+
+.bookdetail-container .book-information .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.bookdetail-container .book-information .row .information {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20rpx;
+  color: #aaa;
+  font-size: 28rpx;
+}
+
+.status-bar {
+  border-top: 1px solid #ccc;
+  background: #fff;
+  padding: 20rpx 30rpx;
+  position: fixed;
+  bottom:0;
+  width: 700rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.status-bar .post-fake {
+  border: 1px solid #ccc;
+  border-radius: 30rpx;
+  height: 70rpx;
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+  width: 420rpx;
+}
+
+.status-bar .post-fake text {
+  font-size: 28rpx;
+}
+
+.like-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin:0 50rpx;
+}
+
+.posting-container{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  background: #fff;
+  padding-bottom: 30rpx;
+  z-index: 100;
+}
+
+.posting-container .posting-head{
+  border-top:1rpx solid #f5f5f5;
+  border-bottom:1rpx solid #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  padding:20rpx 30rpx
+}
+
+.posting-container .posting-head .hint{
+  color:#ccc;
+  font-size: 28rpx;
+}
+
+.posting-container .posting-head .cancel{
+  color:#666;
+  font-size: 28rpx;
+}
+
+.posting-tag{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  padding:20rpx 30rpx;
+}
+
+.posting-container .posting-bar{
+  width:690rpx;
+  height:60rpx;
+  margin: 0 auto;
+  border-radius: 15rpx;
+  background: #f5f5f5;
+}

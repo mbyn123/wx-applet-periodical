@@ -1,0 +1,101 @@
+/* pages/my/my.wxss */
+
+.my-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-container .header {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-container .header .header-img {
+  width: 750rpx;
+  height: 574rpx;
+}
+
+.avatar-position {
+  position: absolute;
+  top: 255rpx;
+  left:325rpx;
+  overflow: hidden;
+  border-radius: 50%;
+   width: 120rpx;
+  height: 120rpx;
+  
+}
+
+.avatar-container{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 255rpx;
+  left:325rpx;
+
+}
+
+.avatar {
+  width: 120rpx;
+  height: 120rpx;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.my-container .header .avarar  .avatar-img {
+  width: 100rpx;
+  height: 100rpx;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.my-container .header .about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 100rpx;
+  position: absolute;
+  top: 440rpx;
+  width: 550rpx;
+}
+
+.my-container .header .about-container image {
+  width: 34rpx;
+  height: 34rpx;
+}
+
+.my-container .header .about-container .about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container .about-us .indicate {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.my-preview{
+  display: flex;
+  flex-flow: wrap;
+  background: #f5f5f5
+}
+
+.my-preview v-preview{
+  margin-left: 30rpx;
+}
+
+.my-likeimg{
+  width:750rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30rpx 0
+}
+
+.my-likeimg image{
+  width:120rpx;
+  height:50rpx;
+
+}
