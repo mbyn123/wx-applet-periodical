@@ -15,36 +15,6 @@
 - [x] 点赞收藏
 - [x] 在线点评
 
-## 项目预览
-
-![](https://graph.baidu.com/resource/11125b57f1b9d4c9d170501567328292.jpg)
-
-![](https://graph.baidu.com/resource/1113b17f6ba54c7e32a1d01567328319.jpg)
-
-![](https://graph.baidu.com/resource/111c5f08ed43c2d21806f01567328343.jpg)
-
-![](https://graph.baidu.com/resource/111c38070e01215b0132101567329149.jpg)
-
-![](https://graph.baidu.com/resource/111e9bc5bc750c034e5bb01567329121.jpg)
-
-![](https://graph.baidu.com/resource/111b7fde602835860fa8d01567329191.jpg)
-
-
-![](https://graph.baidu.com/resource/11137b5c8955c00b3c4ea01567328256.jpg)
-
-![](https://s2.ax1x.com/2019/09/01/npBDOJ.jpg)
-
-![](https://graph.baidu.com/resource/111e8498fe4cc87dae34701567330336.jpg)
-
-
-![](https://graph.baidu.com/resource/111eee2d7b2c2b01cbb0501567330621.jpg)
-
-![](https://graph.baidu.com/resource/1113eed2dbc9c35642cea01567330648.jpg)
-
-
-![](https://graph.baidu.com/resource/111eea92de2e8a73ccb2e01567328221.jpg)
-
-
 
 目录结构:
 
@@ -88,3 +58,35 @@
     |-app.json                    #  小程序公共设置
     |-app.wxss                    # 小程序公共样式表
     |-config.js                   # 请求api公用url
+
+## 项目预览
+
+![](https://graph.baidu.com/resource/11125b57f1b9d4c9d170501567328292.jpg)
+
+![](https://graph.baidu.com/resource/1113b17f6ba54c7e32a1d01567328319.jpg)
+
+![](https://graph.baidu.com/resource/111c5f08ed43c2d21806f01567328343.jpg)
+
+![](https://graph.baidu.com/resource/111c38070e01215b0132101567329149.jpg)
+
+![](https://graph.baidu.com/resource/111e9bc5bc750c034e5bb01567329121.jpg)
+
+![](https://graph.baidu.com/resource/111b7fde602835860fa8d01567329191.jpg)
+
+
+![](https://graph.baidu.com/resource/11137b5c8955c00b3c4ea01567328256.jpg)
+
+![](https://s2.ax1x.com/2019/09/01/npBDOJ.jpg)
+
+![](https://graph.baidu.com/resource/111e8498fe4cc87dae34701567330336.jpg)
+
+
+![](https://graph.baidu.com/resource/111eee2d7b2c2b01cbb0501567330621.jpg)
+
+![](https://graph.baidu.com/resource/1113eed2dbc9c35642cea01567330648.jpg)
+
+
+![](https://graph.baidu.com/resource/111eea92de2e8a73ccb2e01567328221.jpg)
+
+
+
